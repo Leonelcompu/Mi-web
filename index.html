@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Leonel Cabrera | Desarrollador de Software</title>
+
+  <!-- Fuentes que esta usando mi pagina -->
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet"/>
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Sans:wght@300;400;500&family=Dancing+Script:wght@600&display=swap" rel="stylesheet"/>
+
+  estilos externa
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+
+  <!-- ==============================
+       NAVEGACIÓN
+       ============================== -->
+  <nav>
+    <div class="nav-logo">Leonel Cabrera.</div>
+    <ul class="nav-links">
+      <li><a href="#sobre">Sobre mí</a></li>
+      <li><a href="#skills">Habilidades</a></li>
+      <li><a href="#proyectos">Proyectos</a></li>
+      <li><a href="#contacto">Contacto</a></li>
+    </ul>
+  </nav>
+
+  <!-- ==============================
+       HERO
+       ============================== -->
+  <section id="hero">
+    <!-- 👉 Cambiá este texto si cambia tu estado -->
+    <div class="hero-tag">Disponible para oportunidades</div>
+
+    <!-- 👉 Tu nombre principal -->
+    <h1 class="hero-name">Hola, soy<br><span>Leonel Cabrera</span></h1>
+
+    <!-- 👉 Tu descripción corta -->
+    <p class="hero-subtitle">
+      Estudiante de Desarrollo de Software en UNSTA, Argentina.
+      Apasionado por construir soluciones, aprender constantemente y trabajar en equipo.
+    </p>
+
+    <div class="hero-btns">
+      <a href="#proyectos" class="btn btn-primary">Ver mis proyectos</a>
+      <a href="#contacto"  class="btn btn-outline">Contáctame</a>
+    </div>
+
+    <div class="hero-scroll">
+      <div class="scroll-line"></div>
+      <span>Scroll para explorar</span>
+    </div>
+  </section>
+
+  <!-- ==============================
+       SOBRE MÍ
+       ============================== -->
+  <section id="sobre">
+    <div class="sobre-grid">
+
+      <!-- Texto de presentación -->
+      <div class="sobre-text reveal">
+        <p class="section-label">Sobre mí</p>
+        <h2 class="section-title">¿Quién soy?</h2>
+        <div class="section-line"></div>
+
+        <p>Soy <strong>Leonel Cabrera</strong>, estudiante de la carrera de Desarrollo de Software en la
+          <strong>Universidad Santo Tomás de Aquino (UNSTA)</strong>, Tucumán, Argentina.</p>
+
+        <p>Me apasiona la programación y el desafío de mejorar en cada proyecto.
+          Creo que cada línea de código es una oportunidad para crecer y resolver problemas reales.</p>
+
+        <p>Fuera del mundo digital, soy fanático del <strong>fútbol y el deporte</strong> —
+          una pasión que me enseñó disciplina, trabajo en equipo y mentalidad de superación,
+          valores que traigo a cada proyecto de software.</p>
+
+        <p>Disfruto del trabajo colaborativo, adaptarme a nuevos contextos y enfrentar
+          los problemas con buena disposición y criterio técnico.</p>
+      </div>
+
+      <!-- Tarjetas de datos rápidos -->
+      <!-- 👉 Para cambiar un ícono: reemplazá el emoji dentro de .stat-icon -->
+      <div class="sobre-stats reveal">
+
+        <div class="stat-card">
+          <div class="stat-icon"><div class="stat-icon"><i class="fa-solid fa-graduation-cap"></i></div></div>
+          <div class="stat-value">UNSTA</div>
+          <div class="stat-label">Desarrollo de Software</div>
+        </div>
+
+        <div class="stat-card">
+          <div class="stat-icon"><div class="stat-icon"><i class="fa-solid fa-location-dot"></i></div></div>
+          <div class="stat-value">Argentina</div>
+          <div class="stat-label">Tucumán</div>
+        </div>
+
+        <div class="stat-card">
+          <div class="stat-icon"><div class="stat-icon"><i class="fa-solid fa-soccer-ball"></i></div></div>
+          <div class="stat-value">Deportista</div>
+          <div class="stat-label">Fútbol & Deporte</div>
+        </div>
+
+        <div class="stat-card">
+          <div class="stat-icon"><div class="stat-icon"><i class="fa-solid fa-users-gear"></i></div></div>
+          <div class="stat-value">Team Player</div>
+          <div class="stat-label">Trabajo en equipo</div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ==============================
+       HABILIDADES
+       ============================== -->
+  <section id="skills">
+    <div class="reveal">
+      <p class="section-label">Habilidades</p>
+      <h2 class="section-title">Mis Skills</h2>
+      <div class="section-line"></div>
+    </div>
+
+    <div class="skills-grid">
+
+      <!-- 👉 Para cambiar ícono: reemplazár lo que sigue despues de icon -->
+      <!-- 👉 Para cambiar nivel de barra: editá style="width: XX%" en .skill-bar -->
+
+      <div class="skill-card reveal">
+        <div class="skill-icon"><img src="https://cdn.simpleicons.org/github/00e5ff" alt="GitHub" width="30"></div>
+        <div class="skill-title">GitHub</div>
+        <div class="skill-desc">Control de versiones y gestión de repositorios. Colaboración en proyectos y seguimiento de código.</div>
+        <div class="skill-bar-wrap">
+          <div class="skill-bar" style="width: 70%"></div>
+        </div>
+      </div>
+
+      <div class="skill-card reveal">
+        <div class="skill-icon"><img src="https://cdn.simpleicons.org/leanpub/00e5ff" alt="Leanpub" width="30" height="30"></div>
+        <div class="skill-title">Inglés</div>
+        <div class="skill-desc">Lectura de documentación técnica, comprensión de recursos y comunicación en entornos internacionales.</div>
+        <div class="skill-bar-wrap">
+          <div class="skill-bar" style="width: 65%"></div>
+        </div>
+      </div>
+
+      <div class="skill-card reveal">
+        <div class="skill-icon"><img src="https://cdn.simpleicons.org/pcgamingwiki/00e5ff" alt="PCGamingWiki" width="32" height="32"></div>
+        <div class="skill-title">Hardware & PC</div>
+        <div class="skill-desc">Conocimiento de componentes de computadora, ensamblado y diagnóstico de hardware.</div>
+        <div class="skill-bar-wrap">
+          <div class="skill-bar" style="width: 75%"></div>
+        </div>
+      </div>
+
+      <div class="skill-card reveal">
+        <div class="skill-icon"><div class="skill-icon">
+  <i class="fa-solid fa-puzzle-piece" style="color: #00e5ff; font-size: 2rem;"></i></div></div>
+        <div class="skill-title">Resolución de Problemas</div>
+        <div class="skill-desc">Capacidad para analizar, identificar y resolver obstáculos técnicos y de equipo con criterio y calma.</div>
+        <div class="skill-bar-wrap">
+          <div class="skill-bar" style="width: 80%"></div>
+        </div>
+      </div>
+
+      <div class="skill-card reveal">
+        <div class="skill-icon"><div class="skill-icon">
+  <i class="fa-solid fa-arrows-rotate" style="color: #00e5ff; font-size: 2rem;"></i></div></div>
+        <div class="skill-title">Adaptabilidad</div>
+        <div class="skill-desc">Facilidad para adaptarme a nuevas tecnologías, metodologías y cambios en los proyectos.</div>
+        <div class="skill-bar-wrap">
+          <div class="skill-bar" style="width: 85%"></div>
+        </div>
+      </div>
+
+      <div class="skill-card reveal">
+        <div class="skill-icon"><div class="skill-icon">
+  <i class="fa-solid fa-users" style="color: #00e5ff; font-size: 2rem;"></i></div></div>
+        <div class="skill-title">Trabajo en Equipo</div>
+        <div class="skill-desc">Colaboración efectiva, comunicación clara y apoyo a los compañeros para lograr objetivos compartidos.</div>
+        <div class="skill-bar-wrap">
+          <div class="skill-bar" style="width: 90%"></div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ==============================
+       PROYECTOS
+       ============================== -->
+  <section id="proyectos">
+    <div class="reveal">
+      <p class="section-label">Proyectos</p>
+      <h2 class="section-title">Mi trabajo</h2>
+      <div class="section-line"></div>
+    </div>
+
+    <div class="projects-grid">
+
+      <!-- 👉 Para agregar un proyecto: copiá un .project-card completo y editá el contenido -->
+
+      <div class="project-card reveal">
+        <div class="project-num">01</div>
+        <div class="project-name">Proyectos Universitarios</div>
+        <div class="project-desc">Trabajos prácticos y proyectos desarrollados durante la carrera de Desarrollo de Software en UNSTA. Ejercicios que fortalecen la lógica de programación y el trabajo colaborativo.</div>
+        <div class="project-tags">
+          <span class="tag">Universidad</span>
+          <span class="tag">Programación</span>
+        </div>
+        <!-- 👉 R href para mi repositorio -->
+        <a href="https://github.com/cabreracompu10" target="_blank" class="project-link">
+          Ver en GitHub →
+        </a>
+      </div>
+
+      <div class="project-card reveal">
+        <div class="project-num">02</div>
+        <div class="project-name">Repositorios Personales</div>
+        <div class="project-desc">Exploración y práctica personal con código. Experimentos, ejercicios y aprendizaje continuo fuera del ámbito académico.</div>
+        <div class="project-tags">
+          <span class="tag">Personal</span>
+          <span class="tag">Aprendizaje</span>
+          <span class="tag">GitHub</span>
+        </div>
+        <a href="https://github.com/cabreracompu10" target="_blank" class="project-link">
+          Ver en GitHub →
+        </a>
+      </div>
+
+      <div class="project-card reveal">
+        <div class="project-num">03</div>
+        <div class="project-name">Próximamente...</div>
+        <div class="project-desc">Nuevos proyectos en camino. Siempre aprendiendo, siempre construyendo. ¡Mantente atento a mi GitHub para las novedades!</div>
+        <div class="project-tags">
+          <span class="tag">En progreso</span>
+          <span class="tag">Coming Soon</span>
+        </div>
+        <a href="https://github.com/Leonelcompu" target="_blank" class="project-link">
+          Seguir en GitHub →
+        </a>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ==============================
+       CONTACTO
+       ============================== -->
+  <section id="contacto">
+    <div class="contact-grid">
+      <div class="contact-info-wrapper reveal"> 
+        <div class="contact-text-block">
+          <p class="section-label">Contacto</p>
+          <h2 class="section-title">¡Hablemos!</h2>
+          <div class="section-line"></div>
+          <p class="contact-description">Ya sea para una oportunidad laboral, colaborar en un proyecto, o simplemente conectar —
+            estoy disponible y con ganas de escucharte.</p>
+        </div>
+        <!-- foto imagen al lado de contacto;agrego la foto despues de img src=""" -->
+        <div class="contact-photo-block">
+          <img src="" alt="Leonel Cabrera" class="contact-photo">
+        </div>
+
+      </div> <div class="contact-links-container reveal">
+        <div class="contact-links">
+
+          <!-- Para cambiar ícono: remplazar con un link despues de "icon"-->
+
+          <a href="mailto:cabreracompu10@gmail.com" class="contact-link">
+            <span class="contact-link-icon"><span class="contact-link-icon"><i class="fa-solid fa-envelope" style="color: #00e5ff;"></i></span></span>
+            <div>
+              <div class="contact-link-label">Email</div>
+              <div class="contact-link-value">cabreracompu10@gmail.com</div>
+            </div>
+          </a>
+        
+          <a href="https://github.com/Leonelcompu" target="_blank" class="contact-link">
+            <span class="contact-link-icon"><span class="contact-link-icon">
+             <i class="fa-brands fa-github" style="color: #00e5ff; font-size: 1.4rem;"></i>
+            <div>
+              <div class="contact-link-label">GitHub</div>
+              <div class="contact-link-value">github.com/Leonelcompu</div>
+            </div>
+          </a>
+
+          <!-- Reemplazá el href con tu link real de LinkedIn -->
+          <a href="https://www.linkedin.com/in/leo-cabrera-1222323bb/" target="_blank" class="contact-link">
+            <span class="contact-link-icon"><span class="contact-link-icon"><i class="fa-brands fa-linkedin-in" style="color: #00e5ff;"></i></span></span>
+            <div>
+              <div class="contact-link-label">LinkedIn</div>
+              <div class="contact-link-value">Leonel Cabrera</div>
+            </div>
+          </a>
+
+        </div>
+      </div>
+
+      <!-- Ejemplo de formulario -->
+      <div class="contact-form reveal">
+        <div class="form-group">
+          <label>Tu nombre</label>
+          <input type="text" placeholder="Ej: Armando Paredes" />
+        </div>
+        <div class="form-group">
+          <label>Tu email</label>
+          <input type="email" placeholder="ejemplo@correo.com" />
+        </div>
+        <div class="form-group">
+          <label>Mensaje</label>
+          <textarea placeholder="Hola Leonel, me gustaría..."></textarea>
+        </div>
+        <a href="mailto:cabreracompu10@gmail.com" class="btn btn-primary" style="text-align:center;">
+          Enviar mensaje
+        </a>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ==============================
+       FOOTER
+       ============================== -->
+  <footer>
+    <p>Diseñado y desarrollado por <span>Leonel Cabrera</span> · 2026 · UNSTA Argentina</p>
+  </footer>
+
+  <!-- animación de aparición al scrollear -->
+  <script>
+    const reveals = document.querySelectorAll('.reveal');
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('visible');
+        }
+      });
+    }, { threshold: 0.1 });
+    reveals.forEach(el => observer.observe(el));
+  </script>
+  <!-- animacion de reducir la barra de arriba al scrollear si bajamos -->
+  <script>
+  window.addEventListener("scroll", function() {
+    const header = document.querySelector("nav");
+    // Si bajamos más de 50px, agregamos la clase 'shrink'
+    if (window.scrollY > 50) {
+      header.classList.add("shrink");
+    } else {
+      header.classList.remove("shrink");
+    }
+  });
+</script>
+
+</body>
+</html>
